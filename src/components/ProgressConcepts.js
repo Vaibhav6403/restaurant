@@ -2,11 +2,19 @@ import React from 'react'
 import { Parallax } from 'react-scroll-parallax'
 
 const ProgressConcepts = (props) => {
-  return (
-    <div className={`flex ${props.flex} w-[1100px] mt-8 rounded-lg relative`}>
   
-    <img src={props.image} className='w-[800px] h-[200px] rounded-lg m-3' alt="Parallax Image" />
-    <div style={{backgroundImage: 'url("props.image")'}}>
+  return (
+    <div className={`flex ${props.flex} w-[1100px] mt-8 rounded-lg relative`}  s>
+  
+    
+    <div className='w-[800px] h-[200px] rounded-lg m-3' style={{
+      backgroundImage: `url(${props.image})`,
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      width: "100%",
+      minHeight: "200px",
+      backgroundAttachment:"fixed"
+    }}>
 
     </div>
  

@@ -36,6 +36,17 @@
   transform: translateZ(-20px);
 }
 
+.hero{
+  backgroundImage: url('../src/assets/contactnew.jpg');
+              backgroundSize:cover;
+              backgroundRepeat: no-repeat;
+              width: 100%;
+              minHeight: auto;
+              backgroundColor:rgba(0, 0, 0, 1)
+}
+
+
+
 
 
 

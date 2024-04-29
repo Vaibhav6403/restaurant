@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import bird_2 from "../assets/bird_2.jpg"
+import DropDown from './DropDown';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
   }, [scrolled]);
 
   return (
-    <div className={`fixed top-0 w-full  z-50 flex justify-evenly items-center p-3  bg-white ${scrolled ? 'h-[20px]' : 'h-[90px]'}`}>
+    <div className={`fixed top-0 w-full  z-50 flex justify-evenly items-center p-3  bg-white  ${scrolled ? 'h-[20px]' : 'h-[90px]'}`}>
       <div>
         <img src={bird_2} alt='image' className='h-auto w-[100px] max-h-[90px]'></img>
       </div>

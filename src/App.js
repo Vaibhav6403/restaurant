@@ -6,10 +6,10 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
-    <div className='w-screen h-screen bg-richblack-900 flex flex-col overflow-x-hidden'>
-      <ParallaxProvider>
+    <div className='w-screen h-screen  flex flex-col overflow-x-hidden'>
+      
       <HomePage/>
-      </ParallaxProvider>
+      
 
     </div>
   );
